@@ -1,0 +1,45 @@
+h1 {
+    font-family: 'Kumar One Outline', cursive;
+    font-weight: 400;
+    font-size: 4.25rem;
+    line-height: 4rem;
+}
+
+h2 {
+    font-family: 'Kumar One', cursive;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3.6rem;
+    letter-spacing: 2.1px;
+}
+
+ul li a{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 29px;
+    letter-spacing: 1.4px;
+    text-decoration: none;
+    color: black;
+}
+
+ul li {
+    list-style: none;
+}
+
+input[type='submit'],
+button {
+    font-family: 'Kumar One', cursive;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 32px;
+    letter-spacing: 1px;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 32px;
+    letter-spacing: 2px;
+}

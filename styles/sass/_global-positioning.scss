@@ -1,0 +1,17 @@
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    padding: 10px 30px;
+}
+
+span:hover {
+    border-bottom: 2px solid $box-shadow-color;
+}
+
+nav ul {
+    text-align: right;
+    margin-top: auto;
+    margin-bottom: 50px;
+}

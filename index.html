@@ -5,29 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Kumar+One&family=Kumar+One+Outline&family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/64f7148673.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/styles.css">
     <title>Home</title>
 </head>
 
 
-<body>
+<body class="home-body">
     <!-- HEADER -->
-    <header class="wrapper">
-        <nav class="header-nav">
+    <header class="home-header">
+        <nav class="header-nav wrapper">
             <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">BLOG</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a href="#"><span>HOME</span></a></li>
+                <li><a href="#"><span>ABOUT</span></a></li>
+                <li><a href="#"><span>BLOG</span></a></li>
+                <li><a href="#"><span>CONTACT</span></a></li>
             </ul>
         </nav>
-        <h1>SANCTUARY HELPERS</h1>
+        <h1 class="wrapper">SANCTUARY<br> HELPERS</h1>
         <div class="header-img">
             <img src="./assets/header-box.png" alt="Picture of two sofas next to each other, the left sofa has two green pillows on it">
         </div>
     </header>
 
     <!-- MAIN -->
-    <main>
+    <main class="home-main">
         <!-- section 1 -->
         <section class="new-materials wrapper">
             <div class="new-materials-content">
@@ -82,7 +83,7 @@
                 <div class="group-programs-img">
                     <img src="./assets/left-image.jpg" alt="Picture of a dining table with white chairs and a center piece">
                 </div>
-                <div class="group-programs-content">
+                <div class="group-programs-content wrapper">
                     <h2>GROUP PROGRAMS</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et risus nec orci ornare condimentum. Nam suscipit odio lorem, id vestibulum lacus tristique eu. Sec urna ex.</p>
                     <button class="home-button">READ MORE</button>
@@ -93,24 +94,24 @@
                 <div class="new-locations-img">
                     <img src="./assets/right-image.jpg" alt="Picture of a patio with two chairs and a coffe table in between">
                 </div>
-                <div class="new-locations-content">
+                <div class="new-locations-content wrapper">
                     <h2>NEW LOCATIONS</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et risus nec orci ornare condimentum. Nam suscipit odio lorem, id vestibulum lacus tristique eu. Sec urna ex.</p>
                     <button class="home-button">READ MORE</button>
                 </div>
             </div>
         </section>
+        <!-- banner iamge -->
+        <div class="banner-image"></div>
+         <!-- search by style aside -->
+        <aside class="search-by-style wrapper">
+            <h2>SEARCH BY STYLE</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa saepe non nobis earum doloremque? Asperiores mollitia officia voluptas est nesciunt ullam magnam dolor. Expedita ullam dolorem, deleniti deserunt neque provident?</p>
+            <button class="home-button">FIND OUT MORE</button>
+        </aside>
     </main>
-    <!-- banner iamge -->
-    <div class="banner-image"></div>
-    <!-- search by style aside -->
-    <aside class="search-by-style">
-        <h2>SEARCH BY STYLE</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa saepe non nobis earum doloremque? Asperiores mollitia officia voluptas est nesciunt ullam magnam dolor. Expedita ullam dolorem, deleniti deserunt neque provident?</p>
-        <button class="home-button">FIND OUT MORE</button>
-    </aside>
     <!-- footer -->
-    <footer>Copyright &copy; 2019 HackerYou</footer>
+    <footer class="home-footer">Copyright &copy; 2019 HackerYou</footer>
 </body>
 
 </html>
