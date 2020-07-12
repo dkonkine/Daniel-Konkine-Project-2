@@ -3,7 +3,8 @@
 .home-header {
     background-image: url(../assets/header-home.jpg);
     background-size: cover;
-    margin-bottom: 300px;
+    background-position: left;
+    margin-bottom: 200px;
     width: 100%;
     height: 90vh;
     position: relative;
@@ -19,11 +20,160 @@
 .new-materials {
     display: flex;
     width: 100%;
+    margin-bottom: 200px;
 }
 
-.new-materials-img {
+
+
+.new-materials-img img {
+    box-shadow: -20px 20px $box-shadow-color;
+    margin-left: 150px;
+}
+
+// home gallery section 
+
+.home-gallery {
+    background-color: $background-color;
+    padding: 100px 0;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+// home section 3
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.services div {
+    width: calc(90% / 2);
+}
+
+// house logo
+.customized-offers h2::before {
+    content: "\f015";
+    // font: normal normal normal 14px/1 FontAwesome;
+    font-family: FontAwesome;
+    font-size: 30px;
+    background-color: $box-shadow-color;
+    border-radius: 50%;
+    padding: 10px 10px;
+}
+
+// community logo
+
+.community h2::before {
+    content: "\f0c0";
+    font-family: FontAwesome;
+    font-size: 30px;
+    background-color: $box-shadow-color;
+    border-radius: 50%;
+    padding: 10px 10px;
+}
+
+// blog logo
+
+.blog h2::before {
+    content: "\f0c5";
+    font-family: FontAwesome;
+    font-size: 30px;
+    background-color: $box-shadow-color;
+    border-radius: 50%;
+    padding: 10px 10px;
+}
+
+// get in touch logo
+
+.get-in-touch h2::before {
+    content: "\f095";
+    font-family: FontAwesome;
+    font-size: 30px;
+    background-color: $box-shadow-color;
+    border-radius: 50%;
+    padding: 10px 10px;
+}
+
+// home section 4
+
+.info {
+    background-color: $background-color;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.group-programs {
+    display: flex;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.group-programs div {
+    width: calc(100% / 2);
+}
+
+.group-programs-img img {
+    position: absolute;
+    top: -130px;
+    box-shadow: 20px 20px $box-shadow-color;
+}
+
+.group-programs-content p {
+    width: 55%;
+}
+
+.new-locations {
+    display: flex;
+    position: relative;
+}
+
+.new-locations-content {
+    width: 25%;
+    text-align: right;
+    margin-left: 205px;
+}
+
+.new-locations-img {
+    position: absolute;
+    right: 0;
+    top: 45px;
+}
+
+.new-locations-img img {
     box-shadow: -20px 20px $box-shadow-color;
 }
+
+.banner-image {
+    background-size: cover;
+}
+
+.banner-image img {
+    width: 100%;
+}
+
+.search-by-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 200px auto;
+}
+
+.home-footer a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
 
 
 
