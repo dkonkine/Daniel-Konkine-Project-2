@@ -1,0 +1,53 @@
+.contact-form {
+    width: 40%;
+    padding: 50px 50px;
+    background-color: white;
+}
+
+.text-email {
+    display: flex;
+    margin-bottom: 40px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+textarea::placeholder {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
+}
+
+
+input[type="text"],
+input[type="email"] {
+    border: none;
+    width: 50%;
+}
+
+.form-name,
+.user-email {
+    width: 49%;
+    border-bottom: 2px solid $button-color;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.user-message {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+textarea {
+    border: 2px solid $button-color;
+    resize: none;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 40px;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+
+

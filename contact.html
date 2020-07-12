@@ -12,41 +12,45 @@
 
 <body>
     <!-- HEADER -->
-    <header class="wrapper">
-        <h2>SANCTUARY HELPERS</h2>
-        <nav>
-            <ul>
-                <li><a href="#"><span>HOME</span></a></li>
-                <li><a href="#"><span>ABOUT</span></a></li>
-                <li><a href="#"><span>BLOG</span></a></li>
-                <li><a href="#"><span>CONTACT</span></a></li>
-            </ul>
-        </nav>
-        <h1>GET IN TOUCH</h1>
+    <header class="contact-header">
+        <div class="contact-header-logo-nav wrapper">
+            <h2>SANCTUARY HELPERS</h2>
+            <nav>
+                <ul>
+                    <li><a href="#"><span>HOME</span></a></li>
+                    <li><a href="#"><span>ABOUT</span></a></li>
+                    <li><a href="#"><span>BLOG</span></a></li>
+                    <li><a href="#"><span>CONTACT</span></a></li>
+                </ul>
+            </nav> 
+        </div>
+        <h1 class="wrapper">GET IN TOUCH</h1>
     </header>
     <!-- form -->
-    <main>
-        <form class="contact-form wrapper" action="#" method="POST"  name="myForm">
-            <!-- form name -->
-            <div class="form-name">
-                <label for="userName">Please enter your name</label>
-                <input type="text" name="userName" placeholder="NAME">
+    <main class="contact-main">
+        <form class="contact-form contact-page-form wrapper" action="#" method="POST"  name="myForm">
+            <div class="text-email">
+                <!-- form name -->
+                <div class="form-name">
+                    <label for="userName" class="sr-only">Please enter your name</label>
+                    <input type="text" name="userName" placeholder="NAME">
+                </div>
+                <!-- form email -->
+                <div class="user-email">
+                    <label for="userEmail" class="sr-only">Please enter your email</label>
+                    <input type="email" name="userEmail" placeholder="EMAIL ADDRESS">
+                </div>
             </div>
-            <!-- form email -->
-            <div class="user-email">
-                <label for="userEmail">Please enter your email</label>
-                <input type="email" name="userEmail" placeholder="EMAIL ADDRESS">
-            </div>
+            
             <!-- form text box -->
             <div class="user-message">
-                <label for="feedback">Please type in your message</label>
-                <textarea name="userFeedback" id="feedback" cols="30" rows="10" placeholder="MESSAGE"></textarea>
+                <label for="feedback" class="sr-only">Please type in your message</label>
+                <textarea name="userFeedback" id="feedback" placeholder="MESSAGE"></textarea>
                 <input type="submit" value="SUBMIT">
             </div> 
         </form>
-    </main>
-        
-    <footer class="contact-footer">
+
+        <aside class="contact-socials">
             <div class="contact-footer-socials">
                 <i class="fab fa-facebook-f"></i>
                 <i class="fab fa-instagram"></i>
@@ -64,7 +68,11 @@
                     M5V2D5<br>
                 </address>
             </div>
-        <p>Copyright &copy; 2019 HackerYou</p>
+        </aside>
+    </main>
+        
+    <footer class="contact-footer">
+        <p class="footer-copyright">Copyright &copy; 2019 HackerYou</p>
     </footer>
 </body>
 

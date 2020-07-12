@@ -59,51 +59,56 @@
                 </ul>
             </div>
         </aside>
+
+        <section class="comment-section wrapper">
+            <h3>COMMENTS:</h3>
+            <aside class="first-comment">
+                <div class="first-comment-img">
+                    <img src="./assets/comment-image.jpg" alt="Picture of a man standing infront of the sunset">
+                </div>
+                <div class="first-comment-content">
+                    <p>TUESDAY OCTOBER 9th, 2019 BY DAVIN</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet quibusdam iusto soluta, architecto nam ipsam repellat ut eligendi. Blanditiis obcaecati ullam ad. Consectetur laboriosam ex omnis perferendis nihil neque totam.</p>
+                </div>
+            </aside>
+
+            <aside class="second-comment">
+                <div class="second-comment-img">
+                    <img src="./assets/comment-image2.jpg" alt="Picture of two zebras huging">
+                </div>
+                <div class="second-comment-content">
+                    <p>WEDNESDAY OCTOBER 10TH, 2019 BY LISA</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur eligendi commodi hic eveniet facere alias earum provident laborum magni deserunt, aliquid, delectus animi nulla.</p>
+                </div>
+            </aside>
+        </section>
     </main>
 
-    <footer class="blog-footer wrapper">
-        <h3>COMMENTS:</h3>
-        <aside class="first-comment">
-            <div class="first-comment-img">
-                <img src="./assets/comment-image.jpg" alt="Picture of a man standing infront of the sunset">
-            </div>
-            <div class="first-comment-content">
-                <p>TUESDAY OCTOBER 9th, 2019 BY DAVIN</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet quibusdam iusto soluta, architecto nam ipsam repellat ut eligendi. Blanditiis obcaecati ullam ad. Consectetur laboriosam ex omnis perferendis nihil neque totam.</p>
-            </div>
-        </aside>
-
-        <aside class="second-comment">
-            <div class="second-comment-img">
-                <img src="./assets/comment-image2.jpg" alt="Picture of two zebras huging">
-                <p>WEDNESDAY OCTOBER 10TH, 2019 BY LISA</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur eligendi commodi hic eveniet facere alias earum provident laborum magni deserunt, aliquid, delectus animi nulla.</p>
-            </div>
-        </aside>
-
+    <footer class="blog-footer">
         <form class="contact-form wrapper" action="#" method="POST"  name="myForm">
-            <!-- form name -->
-            <div class="form-name">
-                <label for="userName">Please enter your name</label>
-                <input type="text" name="userName" placeholder="NAME">
+            <div class="text-email">
+               <!-- form name -->
+                <div class="form-name">
+                    <label for="userName" class="sr-only">Please enter your name</label>
+                    <input type="text" name="userName" placeholder="NAME">
+                </div>
+                <!-- form email -->
+                <div class="user-email">
+                    <label for="userEmail" class="sr-only">Please enter your email</label>
+                    <input type="email" name="userEmail" placeholder="EMAIL ADDRESS">
+                </div> 
             </div>
-            <!-- form email -->
-            <div class="user-email">
-                <label for="userEmail">Please enter your email</label>
-                <input type="email" name="userEmail" placeholder="EMAIL ADDRESS">
-            </div>
+            
             <!-- form text box -->
             <div class="user-message">
-                <label for="feedback">Please type in your message</label>
-                <textarea name="userFeedback" id="feedback" cols="30" rows="10" placeholder="COMMENT"></textarea>
+                <label for="feedback" class="sr-only">Please type in your message</label>
+                <textarea name="userFeedback" id="feedback" placeholder="COMMENT"></textarea>
                 <input type="submit" value="POST COMMENT">
             </div> 
         </form>
+        <p class="footer-copyright">Copyright &copy; 2019 HackerYou</p>
     </footer>
 
-
-
-    
 </body>
 
 
