@@ -419,11 +419,10 @@ nav ul {
   margin-bottom: 200px;
   width: 100%;
   height: 90vh;
-  position: relative;
 }
 
 .header-img {
-  position: absolute;
+  position: relative;
   bottom: -145px;
 }
 
@@ -500,53 +499,60 @@ nav ul {
 
 .info {
   background-color: #E0FDDF;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-.group-programs {
+  padding-top: 90px;
+  padding-bottom: 90px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: relative;
-  margin-bottom: 100px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.group-programs div {
-  width: calc(100% / 2);
+.new-locations,
+.group-programs {
+  width: 43%;
 }
 
+.new-locations-content {
+  text-align: right;
+}
+
+.new-locations-content p,
+.group-programs-content p {
+  width: 60%;
+  margin-bottom: 40px;
+}
+
+.new-locations-content p {
+  margin-left: 328px;
+}
+
+.new-locations-content h2 {
+  margin-top: 0;
+}
+
+.new-locations-img img,
 .group-programs-img img {
-  position: absolute;
-  top: -130px;
+  width: 100%;
+}
+
+.new-locations-img {
+  position: relative;
+  top: -125px;
+}
+
+.group-programs-img {
+  position: relative;
+  bottom: -160px;
+}
+
+.new-locations-img img {
   -webkit-box-shadow: 20px 20px #F8FB05;
           box-shadow: 20px 20px #F8FB05;
 }
 
-.group-programs-content p {
-  width: 55%;
-}
-
-.new-locations {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-}
-
-.new-locations-content {
-  width: 25%;
-  text-align: right;
-  margin-left: 205px;
-}
-
-.new-locations-img {
-  position: absolute;
-  right: 0;
-  top: 45px;
-}
-
-.new-locations-img img {
+.group-programs-img img {
   -webkit-box-shadow: -20px 20px #F8FB05;
           box-shadow: -20px 20px #F8FB05;
 }
@@ -579,7 +585,7 @@ nav ul {
 }
 
 .contact-header {
-  background-image: url(/assets/contact-image.jpg);
+  background-image: url(../assets/contact-image.jpg);
   width: 100%;
   height: 80vh;
   background-size: cover;
@@ -702,11 +708,13 @@ address {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-top: 100px;
 }
 
 .blog-content {
-  width: 60%;
-  background-color: white;
+  width: 80%;
+  margin-left: 150px;
+  margin-top: -80px;
 }
 
 .blog-content-date {
@@ -715,16 +723,39 @@ address {
 }
 
 .blog-content-img {
-  -webkit-box-shadow: 10px 10px #F8FB05;
-          box-shadow: 10px 10px #F8FB05;
+  position: relative;
+  top: -120px;
+  background-color: white;
+  width: 53%;
+  border: 4px solid #F8FB05;
 }
 
-.blog-content-img h2 {
-  width: 90%;
+.blog-img {
+  width: 76%;
+}
+
+.blog-img img {
+  position: relative;
+  top: -140px;
+  -webkit-box-shadow: 19px 15px #F8FB05;
+          box-shadow: 19px 15px #F8FB05;
+}
+
+.blog-content h2 {
+  width: 100%;
 }
 
 .blog-aside {
   width: 20%;
+  background-color: #F8FB05;
+  padding-left: 20px;
+  height: 90vh;
+}
+
+.aside-img img {
+  width: 100%;
+  position: relative;
+  top: -15px;
 }
 
 .aside-content h3 {
@@ -757,7 +788,18 @@ address {
   width: 60%;
 }
 
+.comment-section {
+  width: 100%;
+  margin-left: 260px;
+}
+
 .comment-date {
   font-weight: 600;
   margin-top: 0;
+}
+
+.first-comment-img,
+.second-comment-img {
+  margin-top: 9px;
+  margin-right: 30px;
 }
