@@ -1,0 +1,18 @@
+.blog-header {
+    background-image: url(/assets/blog-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 90vh;
+}
+
+.blog-header-logo-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-header-logo-nav h2 {
+    width: 32%;
+}

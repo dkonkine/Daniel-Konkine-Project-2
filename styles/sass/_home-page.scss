@@ -3,7 +3,7 @@
 .home-header {
     background-image: url(../assets/header-home.jpg);
     background-size: cover;
-    background-position: left;
+    background-position: center;
     margin-bottom: 200px;
     width: 100%;
     height: 90vh;
@@ -13,6 +13,10 @@
 .header-img {
     position: absolute;
     bottom: -145px;
+}
+
+.header-nav {
+    padding-top: 40px;
 }
 
 // home section 1 styles
@@ -40,6 +44,8 @@
 .gallery {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    flex-shrink: 1;
 }
 
 // home section 3
