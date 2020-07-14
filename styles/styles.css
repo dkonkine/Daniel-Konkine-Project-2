@@ -610,6 +610,11 @@ nav ul {
   margin: 0;
 }
 
+.contact-header-logo-nav h2 a {
+  text-decoration: none;
+  color: black;
+}
+
 .contact-header h1 {
   margin-top: 170px;
 }
@@ -664,7 +669,7 @@ address {
 }
 
 .blog-header {
-  background-image: url(/assets/blog-image.jpg);
+  background-image: url(../assets/blog-image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -691,6 +696,11 @@ address {
 .blog-header-logo-nav h2 {
   width: 32%;
   line-height: 35px;
+}
+
+.blog-header-logo-nav a {
+  text-decoration: none;
+  color: black;
 }
 
 .blog-header h1 {

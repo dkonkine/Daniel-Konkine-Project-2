@@ -1,5 +1,5 @@
 .blog-header {
-    background-image: url(/assets/blog-image.jpg);
+    background-image: url(../assets/blog-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -20,6 +20,11 @@
 .blog-header-logo-nav h2 {
     width: 32%;
     line-height: 35px;
+}
+
+.blog-header-logo-nav a {
+    text-decoration: none;
+    color: black;
 }
 
 .blog-header h1 {
