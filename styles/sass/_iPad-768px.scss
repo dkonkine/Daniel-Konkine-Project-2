@@ -1,0 +1,151 @@
+@media (max-width: 768px) {
+    // HOME PAGE
+    .home-header {
+        margin-bottom: 50px;
+    }
+
+    .header-img {
+        position: static;
+        width: 100%;
+    }
+
+    .header-img img {
+        width: 100%;
+    }
+
+    .new-materials {
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+
+    .new-materials-content {
+        text-align: center;
+    }
+
+    .gallery div{
+        width: calc(100% / 3);
+        display: flex;
+    }
+
+    .info {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .new-locations,
+    .group-programs {
+        width: 100%;
+    }
+
+    .new-locations-content {
+        margin-top: 50px;
+    }
+
+    .group-programs-content {
+        margin-bottom: 50px;
+    }
+
+    .new-locations-content,
+    .group-programs-content {
+        text-align: center;
+    }
+
+    .new-locations-content p,
+    .group-programs-content p {
+        width: 100%;
+    }
+
+    .new-locations-content p {
+        margin-left: 0;
+    }
+
+    .new-locations-img,
+    .group-programs-img {
+        position: static;
+    }
+
+    .new-locations-img img,
+    .group-programs-img img {
+        box-shadow: none;
+    }
+
+    .search-by-style {
+        text-align: center;
+    }
+
+    // CONTACT PAGE
+
+    .contact-header-logo-nav {
+        flex-direction: column;
+    }
+
+    .contact-main {
+        flex-direction: column;
+    }
+
+    .contact-page-form {
+        position: static;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .contact-page-form {
+        box-shadow: none;
+    }
+
+    // BLOG PAGE
+    .blog-header-logo-nav {
+        flex-direction: column;
+    }
+
+    .blog-header-logo-nav h2 {
+        text-align: center;
+    }
+
+    .blog-section {
+        flex-direction: column;
+    }
+
+    .blog-content {
+        margin: 0 50px;
+    }
+
+    .blog-content-img {
+        width: 100%;
+        position: static;
+    }
+
+    .blog-img {
+        width: 100%;
+    }
+
+    .blog-img img {
+        position: static;
+        box-shadow: none;
+        width: 100%;
+    }
+
+    // aside
+    .blog-aside {
+        width: 100%;
+        background-color: transparent;
+        margin-top: 50px;
+    }
+
+    .aside-img img {
+        position: static;
+    }
+
+    .comment-section {
+        margin-left: 0;
+        margin-top: 350px;
+    }
+
+    .first-comment,
+    .second-comment {
+        width: 100%;
+    }
+
+}
